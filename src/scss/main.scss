@@ -1,3 +1,13 @@
+// var
+$bg-primary : lightgreen;
+$col-primary : green;
+
 body {
-  background:lightgreen;
+  background:$bg-primary;
+}
+
+h1,
+h2,
+h3,{
+  color: $col-primary;
 }
